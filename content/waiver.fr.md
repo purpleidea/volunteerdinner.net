@@ -58,8 +58,8 @@ brûlent pas, ne soient pas oubliés dans un four ou laissés à l’extérieur.
 ### À vos propres risques
 
 Si vous n’êtes pas à l’aise de travailler dans un environnement de cuisine,
-veuillez nous le dire et nous essaierons de vous trouver d’autres tâches à
-l’extérieur de la salle. Vous travaillez ici à vos propres risques. Faites
+veuillez nous le dire et nous essaierons de vous trouver d’autres tâches dans 
+la salle à manger. Vous travaillez ici à vos propres risques. Faites
 attention aux sources de chaleur et de vapeur, aux objets lourds et aux sols
 glissants. Si vous ne savez pas comment quelque chose fonctionne ou comment
 l’utiliser en toute sécurité, veuillez le demander.
