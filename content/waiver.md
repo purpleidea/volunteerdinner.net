@@ -53,7 +53,7 @@ or left out.
 ### At your own risk
 
 If you are not comfortable working in the kitchen environment, please say so
-and we will try and find other duties for you outside of the hall. You are
+and we will try and find other duties for you in the dining hall. You are
 working here at your own risk. Be aware of sources of heat and steam and heavy
 items and slippery floors. If you are not sure how something works or how to
 operate something safely, please ask.
