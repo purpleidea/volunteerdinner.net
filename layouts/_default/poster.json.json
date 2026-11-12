@@ -1,0 +1,5 @@
+{{ $copy := dict }}
+{{ range .AllTranslations }}
+	{{ $copy = merge $copy (dict .Language.Name (.Render "poster-copy" | transform.Unmarshal)) }}
+{{ end }}
+{{ dict "year" .Site.Params.activeYear "event" hugo.Data.dinner "copy" $copy "email" hugo.Data.contact.email "url" .Site.Home.Permalink | jsonify }}

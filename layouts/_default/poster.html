@@ -1,0 +1,13 @@
+{{ define "main" }}
+<div class="container inner-page">
+	<header class="page-heading"><h1>{{ .Title }}</h1></header>
+	<div class="prose">
+		<p>{{ i18n "poster_share" }}</p>
+		<p><a class="button" href="{{ "poster.pdf" | relURL }}" download>{{ i18n "poster_download" }}</a></p>
+		<p>{{ i18n "poster_format" }}</p>
+		<a class="poster-preview" href="{{ "poster.pdf" | relURL }}">
+			<img src="{{ "poster.svg" | relURL }}" width="612" height="792" alt="{{ i18n "poster_preview_alt" }}">
+		</a>
+	</div>
+</div>
+{{ end }}

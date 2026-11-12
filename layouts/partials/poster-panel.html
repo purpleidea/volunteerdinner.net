@@ -1,0 +1,11 @@
+{{ with .Site.GetPage "/poster" }}
+<section class="contact-panel" aria-labelledby="poster-heading">
+	<div>
+		<h2 id="poster-heading">{{ i18n "poster_heading" }}</h2>
+		<p>{{ i18n "poster_body" }}</p>
+	</div>
+	<div class="contact-action">
+		<a class="button" href="{{ .RelPermalink }}">{{ i18n "poster_button" }} <span aria-hidden="true">↗</span></a>
+	</div>
+</section>
+{{ end }}

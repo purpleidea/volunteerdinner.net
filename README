@@ -10,6 +10,11 @@ Install Hugo (0.158.0 or later; tested with 0.162.1). Standard Hugo is sufficien
 there are no theme submodules, JavaScript packages, external fonts, or Sass
 dependencies.
 
+Production builds also require golang 1.25 or later for the PDF poster generator.
+Its dependencies are pinned in tools/poster/go.mod and go.sum. Fonts are embedded
+from golang.org/x/image, so no browser, Python, or system font installation is
+needed. The first build downloads the golang modules.
+
 	make server
 
 English is at http://localhost:1313/ and French at http://localhost:1313/fr/.
@@ -23,6 +28,31 @@ The original hall photo lives in assets/images/; Hugo creates a 1200-pixel-wide
 version for the homepage and social previews. CSS lives in assets/css/ and
 is minified and fingerprinted by Hugo.
 The 2024 dinner photo comes from the original project page.
+
+Poster
+------
+
+The home and dinner pages link to /poster/ (French: /fr/poster/), where visitors
+can download /poster.pdf. This is a single bilingual Letter-size page, like the
+original flyer. Both languages download the same PDF.
+
+`make build` runs Hugo first, exporting the poster data to /poster/index.json,
+then runs the isolated golang module in tools/poster/ to draw public/poster.pdf
+and public/poster.svg. The SVG thumbnail on the poster page uses the same drawing
+commands and embedded fonts as the PDF, so it stays in sync without a separate
+conversion tool.
+GitHub Actions runs this same command before uploading the Pages artifact, so
+each push to master rebuilds and publishes the poster along with the website.
+Running Hugo alone, including `make server`, does not regenerate the PDF; run
+`make build` after edits to preview the download.
+
+Update params.activeYear in config.toml and the date, hours, venue, and address
+in data/dinner.toml for each edition. Contact details come from data/contact.toml.
+Poster wording lives alongside the other translations in i18n/en.toml and
+i18n/fr.toml, under the poster_* keys. The layout and palette live
+in tools/poster/main.go; they are drawn directly rather than interpreted from
+website CSS. The generator measures text and fails the build if it cannot fit.
+Do not edit or commit the generated PDF or JSON.
 
 Content and translations
 ------------------------

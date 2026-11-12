@@ -11,5 +11,6 @@
 	{{ with .Params.cta }}
 	{{ partial "contact.html" (dict "kind" .) }}
 	{{ end }}
+	{{ if eq .TranslationKey "dinner" }}{{ partial "poster-panel.html" . }}{{ end }}
 </div>
 {{ end }}

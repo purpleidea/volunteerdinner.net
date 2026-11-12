@@ -114,3 +114,25 @@
 	other = "Meet the individuals, companies, and organizations who help make this dinner possible."
 [donors_button]
 	other = "See our donors"
+[poster_heading]
+	other = "Help spread the word."
+[poster_body]
+	other = "Know someone who could use a meal or some company? Download and print our bilingual poster to help invite them to the table."
+[poster_button]
+	other = "Get the poster"
+[poster_title]
+	other = "A free community dinner"
+[poster_welcome]
+	other = "Everyone is welcome."
+[poster_note]
+	other = "A non-religious event, entirely run by volunteers."
+[poster_help]
+	other = "Come for dinner. Volunteer. Donate."
+[poster_share]
+	other = "Print and share this poster"
+[poster_download]
+	other = "Download the poster (PDF)"
+[poster_format]
+	other = "Bilingual English / French poster. One page, Letter size (8½ × 11 inches)."
+[poster_preview_alt]
+	other = "Preview of the bilingual dinner poster. Open the PDF to read or print it."

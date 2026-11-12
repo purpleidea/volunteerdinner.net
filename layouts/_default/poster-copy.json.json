@@ -1,0 +1,2 @@
+{{- /* Page.Render resolves i18n in the rendered page's language. */ -}}
+{{- dict "title" (i18n "poster_title") "welcome" (i18n "poster_welcome") "note" (i18n "poster_note") "help" (i18n "poster_help") | jsonify -}}

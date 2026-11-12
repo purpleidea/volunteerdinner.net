@@ -159,6 +159,8 @@ h3 { font-size: 1.75rem; line-height: 1.25; }
 	border-radius: 3px;
 }
 .contact-panel h2 { font-size: clamp(1.8rem, 3vw, 2.4rem); }
+.poster-preview { display: block; width: min(100%, 420px); margin: 2rem 0 4rem; }
+.poster-preview img { border: 1px solid var(--line); box-shadow: 0 8px 24px #243c3218; }
 .contact-panel p { margin-top: 1rem; color: #535b50; max-width: 39rem; }
 .contact-action { display: flex; flex-direction: column; gap: .75rem; align-items: flex-start; }
 .contact-action .button { width: 14rem; max-width: 100%; }

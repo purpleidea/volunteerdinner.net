@@ -114,3 +114,25 @@
 	other = "Découvrez les particuliers, entreprises et organismes qui rendent ce dîner possible."
 [donors_button]
 	other = "Voir nos donateurs"
+[poster_heading]
+	other = "Faites passer le mot."
+[poster_body]
+	other = "Vous connaissez quelqu’un qui aurait besoin d’un repas ou d’un peu de compagnie ? Téléchargez et imprimez notre affiche bilingue pour l’inviter à notre table."
+[poster_button]
+	other = "Obtenir l’affiche"
+[poster_title]
+	other = "Un repas communautaire gratuit"
+[poster_welcome]
+	other = "Tout le monde est bienvenu."
+[poster_note]
+	other = "Un événement non religieux, entièrement organisé par des bénévoles."
+[poster_help]
+	other = "Venez manger. Faites du bénévolat. Faites un don."
+[poster_share]
+	other = "Imprimez et partagez cette affiche"
+[poster_download]
+	other = "Télécharger l’affiche (PDF)"
+[poster_format]
+	other = "Affiche bilingue français / anglais. Une page, format lettre (8½ × 11 pouces)."
+[poster_preview_alt]
+	other = "Aperçu de l’affiche bilingue du repas. Ouvrez le PDF pour la lire ou l’imprimer."
