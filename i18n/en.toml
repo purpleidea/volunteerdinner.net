@@ -86,6 +86,8 @@
 	other = "Sign up to donate"
 [footer_description]
 	other = "A free meal. A shared table. A community that cares."
+[website_by]
+	other = "Website by"
 [footer_note]
 	other = "Montreal, Canada · December 25 · Non-religious · Non-profit · Entirely volunteer-run"
 [not_found_title]

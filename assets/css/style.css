@@ -172,6 +172,7 @@ h3 { font-size: 1.75rem; line-height: 1.25; }
 .site-footer ul { display: grid; grid-template-columns: 1fr 1fr; gap: .6rem 3rem; font-size: .875rem; }
 .footer-bottom { display: flex; gap: 1rem 2rem; justify-content: space-between; padding-block: 1.5rem; border-top: 1px solid #c7ccbb; }
 .footer-bottom p { font-size: .75rem; color: var(--muted); }
+.footer-bottom .site-credit { margin-top: .5rem; }
 .inner-page { padding-top: 4rem; }
 .page-heading { max-width: 53rem; margin-bottom: 3rem; }
 .page-heading .eyebrow { color: var(--rust); margin-bottom: 1.25rem; }
